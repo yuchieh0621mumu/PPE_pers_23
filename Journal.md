@@ -1,6 +1,8 @@
 journal 
 ## 230920 
+today we started to learn the basic caracteristic of unix systems, ans some very useful linux terminal commands.
 
 ## 230927
-today we started to learn how to make SSH keys and made it on github.
-however I got some trouble so after the class I checked out the manual on github and made another ssh key. and also I learned how to push files via vs code today! 
+today we learned how to make SSH keys and keep it on github.
+However I had some trouble when I tried to use the command "git push" on my terminal because the password authentification doesn't work anymore, so after the class I checked out the manual on github and made another ssh key, and I figured out that I have to clone the SSH adress to make a local repistory, not https one. Also I learned how to git push via vscode, which is easier than using terminal.
+
