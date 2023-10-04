@@ -10,3 +10,9 @@ However I had some trouble when I tried to use the command "git push" on my term
 today is the third class and we tried several new --git commands like "git reverse" "git reset"--
 
 #séance 3 I AM ERROR
+
+EX1.b git log  c063bb7cd8bdfd99456495759587a5033c3a6197/ 
+"git revert 51fedf4
+error: your local changes would be overwritten by revert.
+hint: commit your changes or stash them to proceed.
+fatal: revert failed"
