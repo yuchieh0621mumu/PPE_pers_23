@@ -17,4 +17,12 @@ error: your local changes would be overwritten by revert.
 hint: commit your changes or stash them to proceed.
 fatal: revert failed"
 
+// des telechargé de petit corpus et dedié de chaque mot, des ensemble de mentionné de mot interesse et netoyer des analuse de cordre de lexicaux et daire tout des etapes de deduit de présentation des résultat de page-web , sur des different mot on a choisir  //
+
+we also have to note the encodage and transform the webpage and download the things that listed n page  
+
+
+faire une liste de contenu de text ou des pensé de corpus(ou un corpus de avoir l'avis de ce mot en focaliser de cet mot , construction des corpus)
+ou uniquement des url par mot des lien et constitué des base   // 
+//pas des twitter, facebook or these resorces which is uncaoable to access//
 
