@@ -16,3 +16,5 @@ EX1.b git log  c063bb7cd8bdfd99456495759587a5033c3a6197/
 error: your local changes would be overwritten by revert.
 hint: commit your changes or stash them to proceed.
 fatal: revert failed"
+
+
