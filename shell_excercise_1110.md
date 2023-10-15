@@ -54,42 +54,42 @@ Then I got the top 10 most cited places of each year
 
 2016
 
--247 France
--130 Burundi
--105 Rio
--82 Paris
--73 États-Unis
--47 Syrie
--41 Russie
--39 Allemagne
--37 Canada
--35 Montpellier
+- 247 France
+- 130 Burundi
+- 105 Rio
+- 82 Paris
+- 73 États-Unis
+- 47 Syrie
+- 41 Russie
+- 39 Allemagne
+- 37 Canada
+- 35 Montpellier
 
 2017
 
--282 France
--79 États-Unis
--50 Syrie
--50 Paris
--37 Turquie
--36 Russie
--35 Italie
--28 Irak
--26 Europe
--24 Royaume-Uni
+- 282 France
+- 79 États-Unis
+- 50 Syrie
+- 50 Paris
+- 37 Turquie
+- 36 Russie
+- 35 Italie
+- 28 Irak
+- 26 Europe
+- 24 Royaume-Uni
 
 2018
 
--174 France
--165 Paris
--76 Champs-Élysées
--37 États-Unis
--36 Russie
--28 A9
--24 A7
--22 A8
--21 Strasbourg
--21 A62
+- 174 France
+- 165 Paris
+- 76 Champs-Élysées
+- 37 États-Unis
+- 36 Russie
+- 28 A9
+- 24 A7
+- 22 A8
+- 21 Strasbourg
+- 21 A62
   
 *5) find the most frequent annotations for your month of birth, all years combined.*  
 I was born in October ::
