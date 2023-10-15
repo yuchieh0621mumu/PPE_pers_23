@@ -1,8 +1,7 @@
 #!/user/bin/bash
 
 YEAR=$1
-MONTH=$2
-LINES=$3
+LINES=$2
 FILE_PATH="./Fichiers/$YEAR/*.ann"
 
 
