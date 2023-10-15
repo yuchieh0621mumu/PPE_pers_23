@@ -35,7 +35,7 @@ cat 2018*.ann | grep Location | wc -l
 
 </pre></code>
   
-*3) save the calculated result in a single file : "location.txt" 
+*3) save the calculated result in a single file : "location.txt" (check /Fichie_data/location.txt)
 
 <pre><code>
 
