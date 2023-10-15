@@ -35,7 +35,7 @@ cat 2018*.ann | grep Location | wc -l
 
 </pre></code>
   
-*3) save the calculated result in a single file : "location.txt" (check /Fichier_data/location.txt)
+*3) save the calculated result in a single file : "location.txt" (check /Fichier_data/location.txt)*
 
 <pre><code>
 
@@ -50,7 +50,7 @@ cat location.txt
 <pre><code>
 cat *.ann | grep Location | cut -f 3 | sort -n | uniq -c | sort -nr | head
 </pre></code>
-hen I got the top 10 most cited places of each year
+Then I got the top 10 most cited places of each year
 
 2016
 
