@@ -143,7 +143,7 @@ KEYWORD="$2"
 FILE_PATH="./Fichiers/201$YEAR/*.ann"
 
 #define the variable
-EXE=$(cat $FILE_PATH | egrep -w $KEYWORD | wc -l)
+EXE=$(cat $FILE_PATH | grep $KEYWORD | wc -l)
 
 echo " IN year 201$YEAR keyword '$KEYWORD' shows : $EXE times"
 </pre></code>
