@@ -3,15 +3,14 @@
 ## Git I
 
 ### Exercise 2.b
-1. To check whether you are behind the online version 
-versione : <code>git status</code>. 
+1. To check if you are behind the current online version  : <code>git status</code>. 
 2. To retrieve the changes from the repository : <code>git pull</code>.
 
 ### Exercise 2.c
-* To add the modifications made on the command line to our online depository  :  
+* To add the modifications made on the command line to the online depository  :  
 <pre><code>
 git add git_exercise_0410.md
-git commit -m "exercise_fin" git_exercices.md
+git commit -m "exercise_fin" git_exercise_0410.md
 git push main
 </pre></code>
 
