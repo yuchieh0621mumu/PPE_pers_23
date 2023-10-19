@@ -15,7 +15,7 @@ if [[ -z $WORD ]]; then
   echo "Please enter the keyword: "
 else
   # Use a while loop to iterate from 6 to 8 and run the script
-  #runs while count variables is less than or equal to max, if it equals to max(8) we'll break the loop
+  #runs while count variables is less than or equal to max, if it equals to max(8), break the loop
   while [[ $COUNT -le $MAX ]]; do
     if bash $SCRIPT_PATH $COUNT $WORD; then
       echo "Script ran successfully for COUNT $COUNT"
