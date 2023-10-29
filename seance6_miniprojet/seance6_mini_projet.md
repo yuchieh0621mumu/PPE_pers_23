@@ -139,7 +139,7 @@ paste candide_per_line.txt <(tail -n +2 candide_per_line.txt) | sort | uniq -c |
 
 ```
 
-- and then save the 25 most frequent in a text file **“bi_freq_process.txt.”**
+- and then save the 25 most frequent in a text file **“bigram_freq_process.txt.”**
 
 ```shell
 ./bi_freq_process.sh candide_per_line.txt > bigram_freq_process.txt
