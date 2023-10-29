@@ -17,10 +17,19 @@ ou uniquement des url par mot des lien et constitué des base
 //pas des twitter, facebook or these resorces which is uncaoable to access//
 
 ## 231011
-I finally figured out how to attach git tag a to main brach. I mistakenly attach to other branch  in last week's class, and I also tried to learn some git skills by practicing on learngitbranching.js.org , and it helps a lot !! 
-Today we learn further how to sort and pick files by using command lines, which include some commands that I'm quite intimidate to use because I haven't ever meeted them before, but after some excercises and practices, I think maybe I'm on the right track and getting better.
+Today, I successfully managed to attach a git tag to the main branch, rectifying last week's oversight where I mistakenly tagged another branch. To bolster my git proficiency, I practiced on `learngitbranching.js.org`, which proved immensely beneficial.
+
+We also delved deeper into sorting and selecting files using command lines. Initially, some of the commands were daunting due to my unfamiliarity with them. However, after engaging in exercises and hands-on practices, I'm gaining confidence and feel I'm progressing in the right direction.
 
 ## 231018
-We learned how to write a Bash script that contains a for loop or a while loop. For loops in Bash scripts are typically used for iterating over a set of items and while loops are used for repeating an action until a specific condition is met. 
-So if we want to improve and upgrade the bash scripts we made last week, we can try to use a while loop to iterate the action of searching the file that meets our needs, which is a condition, the number in the filename.
-I tried a while loop in last week's assignment but I didn't understand it very well, but after today's practice, I feel like I'm got to know how it works.
+We deepened our understanding of Bash scripting by exploring its loop structures, particularly the 'for' and 'while' loops. In Bash, 'for' loops are commonly employed to iterate over a series of items, whereas 'while' loops repeat actions based on the fulfillment of a specific condition.
+
+To elevate the scripts we crafted last week, we can integrate a 'while' loop. This would enable us to continually search for files until we find one that satisfies our criteria - in this case, a specific number in the filename.
+
+In last week's assignment, I made an attempt with the 'while' loop but found it challenging. However, after today's hands-on session, I feel much more confident in my grasp of its mechanics and application.
+
+## 231025
+Today, my primary objective was to extract data from a series of web links. Utilizing tools like `curl` and `wget`, I was able to seamlessly retrieve content from URLs listed in a text file. The script was designed to iterate over each URL, capture its content, and store it.
+However, I realized that the real challenge lies in processing and presenting the data in a structured manner. Parsing through HTML using Bash commands felt a bit intimidating.
+I've also learned the importance of commenting, structuring, and testing when writing bash scripts. The journey of mastering Bash scripting, while challenging, has been incredibly rewarding so far.
+
