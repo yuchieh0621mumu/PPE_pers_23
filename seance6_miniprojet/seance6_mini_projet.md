@@ -58,7 +58,7 @@ Inspired by the work you did last week (where we counted entities). Write a scri
 1. call up the script from Exercise 1
 2. take the name of the text file as the first argument
 3. take the number of words to be displayed as an optional second argument. If this number of words is not given, display the 25 most frequent by default.
-- First, in the new script called **`freq_process.sh`**, we need to provide the processed text file. The file should contain all words on separate lines, without punctuation, and in lowercase, which is  “**candide_per_line.txt”**
+- First, in the new script called **`freq_process.sh`**, we need to provide the processed text file. The file should contain all words on separate lines, without punctuation, and in lowercase, which is  “**candide_per_line.txt**"
 
 ```bash
 #!/bin/bash
