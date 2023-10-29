@@ -1,0 +1,14 @@
++-------+------------------+--------------------------------------------------------------------+--------------+
+| Number| Status Code HTTP | URL                                                                | Page Encoding|
++-------+------------------+--------------------------------------------------------------------+--------------+
+| 1     | 200              | https://www3.nhk.or.jp/news/html/20231025/k10014236581000.html | UTF-8        |
+| 2     | 200              | https://www.tokyo-np.co.jp/article/285891 | UTF-8        |
+| 3     | 200              | https://sp.m.jiji.com/course/show/general?pattern=2&redirect_to=https%3A%2F%2Fsp.m.jiji.com%2Farticle%2Fshow%2F3081857 | UTF-8        |
+| 4     | 200              | https://newsdig.tbs.co.jp/articles/-/796766 | UTF-8        |
+| 5     | 200              | https://www.jspog.com/general/details_83.html | UTF-8        |
+| 6     | 200              | https://keiyaku-watch.jp/media/kisochishiki/transgender/ | UTF-8        |
+| 7     | 200              | https://jobrainbow.jp/magazine/transgid | UTF-8        |
+| 8     | 200              | https://spaceshipearth.jp/transgender/#:~:text=%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B9%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%80%E3%83%BC%E3%81%A8%E3%81%AF%E3%80%81%E8%BA%AB%E4%BD%93,%E3%81%A6%E3%81%84%E3%82%8B%E4%BA%BA%E3%80%8D%E3%81%8C%E3%81%84%E3%81%BE%E3%81%99%E3%80%82 | UTF-8        |
+| 9     | 200              | https://u-toyama-keisei.com/diagnosis/gid/ | UTF-8        |
+| 10    | 200              | https://www.asahi.com/articles/ASRBP7T8YRBNUTIL009.html | UTF-8        |
++-------+------------------+--------------------------------------------------------------------+--------------+
