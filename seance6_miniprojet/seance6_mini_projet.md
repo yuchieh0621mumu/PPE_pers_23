@@ -12,13 +12,13 @@ The general aim is to obtain a list of the most frequent words and word bigrams 
 2. To make counting easier, transform the text to obtain one word per line. Using the grep
 command is a good strategy!
     
-    ```bash
+    ```shell
     grep -oE '\w+' candide.txt > candide_per_line.txt
     ```
     
 3. Make sure the text is clean (no punctuation, all in lower case). The tr command may be useful.
     
-    ```bash
+    ```shell
     cat candide_per_line.txt | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:][:space:]' | grep -oE '\w+' > candide_par_ligne_1.txt
     ```
     
@@ -85,7 +85,7 @@ cat candide_per_line.txt | sort | uniq -c | sort -nr | head -n "$NUM_WORDS"
 
 - and then save the 25 most frequent in a text file “**freq_process.txt**.”
 
-```bash
+```shell
 ./freq_process.sh candide_per_line.txt > freq_process.txt
 ```
 
@@ -141,6 +141,6 @@ paste candide_per_line.txt <(tail -n +2 candide_per_line.txt) | sort | uniq -c |
 
 - and then save the 25 most frequent in a text file **“bi_freq_process.txt.”**
 
-```bash
+```shell
 ./bi_freq_process.sh candide_per_line.txt > bigram_freq_process.txt
 ```
