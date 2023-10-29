@@ -30,6 +30,8 @@ In last week's assignment, I made an attempt with the 'while' loop but found it 
 
 ## 231025
 Today, my primary objective was to extract data from a series of web links. Utilizing tools like `curl` and `wget`, I was able to seamlessly retrieve content from URLs listed in a text file. The script was designed to iterate over each URL, capture its content, and store it.
+
 However, I realized that the real challenge lies in processing and presenting the data in a structured manner. Parsing through HTML using Bash commands felt a bit intimidating.
+
 I've also learned the importance of commenting, structuring, and testing when writing bash scripts. The journey of mastering Bash scripting, while challenging, has been incredibly rewarding so far.
 
