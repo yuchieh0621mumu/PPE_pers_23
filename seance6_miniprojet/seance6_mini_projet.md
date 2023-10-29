@@ -113,7 +113,7 @@ Propose a script similar to the one produced in Exercise 2, but which gives resu
 
 3. You can generate intermediate files and get to the result in several steps
 
-- In the new script called`**bi_freq_process.sh**`, we aim to input a processed text file that we have already processed : **candide_per_line.txt**
+- In the new script called **bi_freq_process.sh**, we aim to input a processed text file that we have already processed : **candide_per_line.txt**
 
 ```bash
 #!/bin/bash
