@@ -30,7 +30,7 @@ echo "+-------+------------------+--------------------------+--------------+"
 
 1. Enter all the URLs I want to examine into a text file and save it as  “**jp_urls.txt**"
 2. List the URLs in a numbered format and save them to a text file named “**urls_jp_num.txt**”.
-- Include numbering by running **get_url_num.sh** and save the numbered links in the file urls_jp.txt
+- Include numbering by running **get_url_num.sh** and save the numbered links in the file **urls_jp.txt**
 
 ```bash
 #!/bin/bash
@@ -51,7 +51,7 @@ nl -w 1 -s "    " $1
 awk '{print $1}' urls_jp.txt >> urls_jp_num.txt
 ```
 
-1. Collect the HTTP statuses of the links and store them in a file named “HTTP_status_output.txt”
+3. Collect the HTTP statuses of the links and store them in a file named **“HTTP_status_output.txt”**
 - Retrive HTTP status by running **HTTP_status.sh**
 
 ```bash
@@ -77,7 +77,7 @@ done < jp_urls.txt
 bash HTTP_status.sh jp_urls.txt echo "$list" | awk -F": " '{print $2}' > HTTP_status_output.txt
 ```
 
-1. Retrieve the URL encodings and store them in a file named “**encoding_urls_jp.txt**”
+4. Retrieve the URL encodings and store them in a file named “**encoding_urls_jp.txt**”
 - Determine the encoding for each link bu running **fetch_encoding.sh**
 
 ```bash
