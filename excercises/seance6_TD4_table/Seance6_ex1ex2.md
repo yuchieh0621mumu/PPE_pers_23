@@ -1,5 +1,36 @@
 # Séance6_mini-project
 
+### update 231108
+Another way for making table
+
+```bash
+#!/bin/bash
+
+lineno=1
+
+# Check if the file containing URLs exists
+if [ ! -f "$1" ]; then
+  echo "Error: File '$1' does not exist."
+  exit 1
+fi
+
+while read -r URL; do
+  # Get the HTTP status code
+  status=$(curl -o /dev/null -s -w "%{http_code}" "$URL")
+  # Get the headers and extract the content type
+  encoding=$(curl -I -s "$URL" | grep -i "Content-Type:" | awk -F'charset=' '{print $2}' | tr -d '[\r\n]')
+  echo -e "$lineno\t$URL\t$status\t$encoding"
+  lineno=$((lineno + 1))
+done < "$1"
+
+```
+
+```
+bash status_3.sh jp_urls.txt
+
+```
+
+
 ### Step 1.  Get the Bash script to generate the table: status_table_output.sh
 
 For this bash script to function, we have to prepare four essential input files: a text file containing all the links, a text file documenting the link numbering, a file logging all the HTTP statuses , and a file that specifies the encoding for each website.
