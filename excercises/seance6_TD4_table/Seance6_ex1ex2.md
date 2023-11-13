@@ -112,7 +112,7 @@ bash HTTP_status.sh jp_urls.txt echo "$list" | awk -F": " '{print $2}' > HTTP_st
 - Determine the encoding for each link bu running **fetch_encoding.sh**
 
 ```bash
-#!/bin/bash
+#!/bin/bash 
 
 while read -r url; do
     # Fetch only the headers
