@@ -38,4 +38,8 @@ I've also learned the importance of commenting, structuring, and testing when wr
 ## 231108
 
 ## 231115
-we learn how to improve our 
+we learn how to improve our HTML skill, my objective was clear: collect information from a list of website links by using bash scripts.  I had to understand the basics of Bash scripting, which meant getting comfortable with the command line and learning about loops, variables, and the curl command to fetch web data. Once I got the hang of it, I wrote a script that looped through each link, fetched the necessary data, and compiled it all into a neat HTML file.
+
+To enhance the visual aspect, I turned to the Bulma framework, and got familiarized myself with its class-based system and responsive design principles. 
+
+By the end of the day, not only had I automated the data collection process, but I also transformed the output into a professionally styled HTML document. 
