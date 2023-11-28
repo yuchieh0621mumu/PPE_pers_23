@@ -36,7 +36,7 @@ However, I realized that the real challenge lies in processing and presenting th
 I've also learned the importance of commenting, structuring, and testing when writing bash scripts. The journey of mastering Bash scripting, while challenging, has been incredibly rewarding so far.
 
 ## 231108
-
+gggggg
 ## 231115
 we learn how to improve our HTML skill, my objective was clear: collect information from a list of website links by using bash scripts.  I had to understand the basics of Bash scripting, which meant getting comfortable with the command line and learning about loops, variables, and the curl command to fetch web data. Once I got the hang of it, I wrote a script that looped through each link, fetched the necessary data, and compiled it all into a neat HTML file.
 
