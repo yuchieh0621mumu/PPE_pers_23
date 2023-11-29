@@ -36,10 +36,16 @@ However, I realized that the real challenge lies in processing and presenting th
 I've also learned the importance of commenting, structuring, and testing when writing bash scripts. The journey of mastering Bash scripting, while challenging, has been incredibly rewarding so far.
 
 ## 231108
-gggggg
+
 ## 231115
 we learn how to improve our HTML skill, my objective was clear: collect information from a list of website links by using bash scripts.  I had to understand the basics of Bash scripting, which meant getting comfortable with the command line and learning about loops, variables, and the curl command to fetch web data. Once I got the hang of it, I wrote a script that looped through each link, fetched the necessary data, and compiled it all into a neat HTML file.
 
 To enhance the visual aspect, I turned to the Bulma framework, and got familiarized myself with its class-based system and responsive design principles. 
 
 By the end of the day, not only had I automated the data collection process, but I also transformed the output into a professionally styled HTML document. 
+
+## 231122
+
+Today our group started the task of assembling a collection of websites, from which we intend to extract data to populate our custom table. Our approach was to make a script that would automate the information gathering process. We encountered our first major problem when we attempted to employ the 'lynx dump' command to retrieve data from Chinese and Japanese websites.
+the character encoding on these sites posed a challenge, as the 'lynx dump' command did not seem to interpret the East Asian character sets correctly. This resulted in a garbled output, rendering the information unusable.
+ We are considering the use of more sophisticated web scraping tools or even delving into writing more complex scripts that can interact with these websites more intelligently. The resolution of this challenge will be a crucial step forward in our data collection efforts.
